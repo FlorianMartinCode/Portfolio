@@ -6,176 +6,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio MARTIN Florian</title>
     <link rel="icon" href="/assets/flavicon.png">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="/sass/normalize.css">
+    <link rel="stylesheet" href="/sass/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://kit.fontawesome.com/996c5ba7dd.js" crossorigin="anonymous"></script>
 </head>
-
-    <!-- ----- ----- ----- -->
-
 <body>
+    <!-- /* Head */ -->
     <header>
         <nav class="navbar">
-            <div>
-                <em><h1 class="header-title">
-                    Portfolio
-                </h1></em>
+            <div class="navbar-title">
+                <h1><em>Portfolio</em></h1>
             </div>
             <div class="ancres">
-                <div class="nav-about"><a href="#about" class="nav-link">About</a></div>
-                <div class="nav-projects"><a href="#projects" class="nav-link">Projects</a></div>
-                <div class="nav-contact"><a href="#contact" class="nav-link">Contact</a></div>
+                <div class="nav-link"><a href="#about">About</a></div>
+                <div class="nav-link"><a href="#projects">Projects</a></div>
+                <div class="nav-link"><a href="#contact">Contact</a></div>
             </div>
         </nav>
-        <div class="brand">
-            <div class="brand-left">
-                <div class="brand-left-header">
-                    <div id="about">
-                        <h2>Martin</h2>
-                        <h2>Florian</h2>
+    </header>
+    <!-- /* Main */ -->
+    <main>
+        <div id="about"></div>
+        <section class="description">
+            <div class="brand">
+                <!--  -->
+                <div class="brand-left">
+                    <div class="brand-left-header">
+                            <h2>Martin</h2>
+                            <h2>Florian</h2>
+                    </div>
+                    <div class="brand-left-description">
+                        <p>Web integrator student "<em>Html5, Css3, Js</em>"</p>
+                    </div>
+                    <div class="brand-btn">
+                        <button class="btn"><i class="fa-solid fa-envelope"></i><br>
+                            <a href="mailto:florian.martin700@gmail.com">Contact me</a>
+                        </button>
                     </div>
                 </div>
-                <div class="brand-left-description">
-                    <p>Web integrator student "<em>Html5, Css3, Js</em>"</p>
-                </div>
-                <div class="brand-btn">
-                    <button class="btn"><i class="fa-solid fa-envelope"></i><br>
-                        <a href="mailto:florian.martin700@gmail.com">Contact me</a>
-                    </button>
+                <!--  -->
+                <div class="brand-right">
+                    <div class="brand-right-pdp">
+                        <img src="/assets/pdp.PNG" alt="picture of Martin Florian">
+                    </div>
                 </div>
             </div>
-            <div class="brand-right">
-                <div class="brand-right-pdp">
-                <img src="/assets/pdp.PNG" alt="photo de profil">
+            <!--  -->
+            <div class="skills">
+                <!--  -->
+                <div class="skills-left">
+                    <div class="skills-left-years">
+                        <h2>>1</h2>
+                    </div>
+                    <div class="skills-left-h3">
+                        <h3>Years of work experience</h3>
+                    </div>
+                    <div class="puces">
+                        <ul>
+                            <a href="certificates.html"><i class="fa-solid fa-medal"></i></a>
+                            <li><em>Html5</em></li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <li><em>Css3</em></li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <li><em>Scss</em></li>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <li><em>JavaScript</em></li>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="description-right">
+                    <div class="description-title">
+                        <h2 class="description-title-right">Description</h2>
+                    </div>
+                    <div class="description-paragraph">
+                        <p>Hello, my name is Florian and I have been studying web development and integration on my own for less than a year.</p><br>
+                        <p>My goal is to broaden my skills in order to be able to meet the demands of future employers.</p><br>
+                        <p>I am a reliable and meticulous web developer.</p><br>
+                        <p>I like working with other developers, designers and project managers but I also know how to be serious individually.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="description">
-            <div class="skills-left">
-                <div class="skill-left-years">
-                    <h2>>1</h2>
-                </div>
-                <div class="skills-left-h3">
-                    <h3>Years of work experience</h3>
-                </div>
-                <div class="puces">
-                    <ul>
-                        <a href="certificates.html"><i class="fa-solid fa-medal"></i></a>
-                        <li><em>Html5</em></li>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <li><em>Css3</em></li>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <li><em>JavaScript</em></li>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <li><em>Scss</em></li>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </ul>
-                </div>
-            </div>
-            <div class="description-right">
-                <div class="description-title">
-                    <h2 class="description-title-right">Description</h2>
-                </div>
-                <div class="description-paragraph">
-                    <p>Hello, my name is Florian and I have been studying web development and integration on my own for less than a year.</p><br>
-                    <p>My goal is to broaden my skills in order to be able to meet the demands of future employers.</p><br>
-                    <p>I am a reliable and meticulous web developer.</p><br>
-                    <p>I like working with other developers, designers and project managers but I also know how to be serious individually.</p>
-                </div>
-            </div>
-        </div>
-        <div class="hr">
             <hr>
-        </div>
-    </header>
-
-    <!-- ----- ----- ----- -->
-
-    <main>
-        <div class="projects">
-            <div id="projects">
-                <h2 class="projects-title">My projects</h2>
+        </section>
+        <!--  -->
+        <div id="projects"></div>
+        <section class="projects">
+            <div class="projects-title">
+                <h2 class="projects-title-h2">My projects</h2>
             </div>
             <div class="cards">
                 <div class="card">
                     <div class="card-img">
-                        <img src="/assets/bdlife.png" alt="">
+                        <img src="/assets/bdlife.png" alt="picture from BD Life website">
                     </div>
-                        <i class="fa-solid fa-book-open"></i>
-                        <h3><em>BdLife</em></h3>
-                        <p>Learn more</p>
+                    <i class="fa-solid fa-book-open"></i>
+                    <h3><em>BdLife</em></h3>
+                    <p>Learn more</p>
                 </div>
                 <div class="card">
                     <div class="card-img">
                         <img src="/assets/interogation.png" alt="">
                     </div>
-                        <i class="fa-solid fa-question"></i>
-                        <h3>Coming</h3>
-                        <p>Learn more</p>
+                    <i class="fa-solid fa-question"></i>
+                    <h3>Coming</h3>
+                    <p>Learn more</p>
                 </div>
                 <div class="card">
                     <div class="card-img">
                         <img src="/assets/interogation.png" alt="">
                     </div>
-                        <i class="fa-solid fa-question"></i>
-                        <h3>Coming</h3>
-                        <p>Learn more</p>
+                    <i class="fa-solid fa-question"></i>
+                    <h3>Coming</h3>
+                    <p>Learn more</p>
                 </div>
                 <div class="card">
                     <div class="card-img">
                         <img src="/assets/interogation.png" alt="">
                     </div>
-                        <i class="fa-solid fa-question"></i>
-                        <h3>Coming</h3>
-                        <p>Learn more</p>
+                    <i class="fa-solid fa-question"></i>
+                    <h3>Coming</h3>
+                    <p>Learn more</p>
                 </div>
                 <div class="card">
                     <div class="card-img">
                         <img src="/assets/interogation.png" alt="">
                     </div>
-                        <i class="fa-solid fa-question"></i>
-                        <h3>Coming</h3>
-                        <p>Learn more</p>
+                    <i class="fa-solid fa-question"></i>
+                    <h3>Coming</h3>
+                    <p>Learn more</p>
                 </div>
                 <div class="card">
                     <div class="card-img">
                         <img src="/assets/interogation.png" alt="">
                     </div>
-                        <i class="fa-solid fa-question"></i>
-                        <h3>Coming</h3>
-                        <p>Learn more</p>
+                    <i class="fa-solid fa-question"></i>
+                    <h3>Coming</h3>
+                    <p>Learn more</p>
                 </div>
             </div>
-        </div>
-        <div class="hr">
             <hr>
-        </div>
+        </section>
     </main>
-
-    <!-- ----- ----- ----- -->
-
+    <!-- /* Footer */ -->
     <footer>
+        <div id="contact"></div>
         <div class="contact">
-            <div id="contact">
-                <h2 class="contact-title">Contact</h2>
-            </div>
+            <h2 class="contact-title">Contact</h2>
             <div class="ft-icons">            
                 <a href="https://github.com/FlorianMartinCode"target="blank1"><i class="fa-brands fa-github"></i></a>
                 <a href="https://twitter.com/florian_martin"target="blank2"><i class="fa-brands fa-twitter"></i></a>
